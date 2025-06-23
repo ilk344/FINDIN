@@ -1,0 +1,32 @@
+name: finanzas_hive_app
+description: Una app de administración financiera compatible con web y móvil.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  device_preview: ^1.2.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/imagenes/arrow_back_ios.png
+    - assets/imagenes/delete.png
+    - assets/imagenes/logout.png
+    - assets/imagenes/opciones.png
+    - assets/imagenes/imgMenu.png
+    
